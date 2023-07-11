@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <style>
+        blockquote {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container m-10">
+        <h1 class="text-center m-20">Random Quote Generator</h1>
+        <div id="quote-container" class="jumbotron text-center">
+            <blockquote id="quote" class="blockquote"></blockquote>
+            <footer id="author" class="blockquote-footer"></footer>
+        </div>
+        <div class="text-center">
+            <button id="new-quote" class="btn btn-primary">New Quote</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
