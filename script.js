@@ -54,9 +54,9 @@ const quotes = [
     document.getElementById("author").innerHTML = randomAuthor;
   }
   
-  // Add an event listener to the "New Quote" button
+  
   document.getElementById("new-quote").addEventListener("click", generateQuote);
   
-  // Generate an initial quote when the page loads
+  // An initial quote when the page loads
   generateQuote();
   

@@ -2,23 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+    content="JavaScript Quote Generator project"
+  />
     <title>Random Quote Generator</title>
+    
     <style>
         blockquote {
             text-align: center;
         }
     </style>
 </head>
-<body style=" display:flex; justify-content: center; margin-top: 8rem;">
-    <div class="container mt-12">
-        <h1 class="text-center m-6">Random Quote Generator</h1>
-        <div id="quote-container" class="jumbotron text-center">
+<body style="background-color: rgb(250, 255, 255); display:flex; justify-content: center; margin-top: 15rem;">
+    <div class="container mt-32">
+        <h1 class="text-center m-9">Random Quote Generator</h1>
+        <div id="quote-container"style="margin-top: 1rem" class="jumbotron text-center">
             <blockquote id="quote" class="blockquote"></blockquote>
             <footer id="author" class="blockquote-footer"></footer>
         </div>
-        <div class="text-center m-5">
+        <div class="text-center m-4">
             <button id="new-quote" class="btn btn-primary">New Quote</button>
         </div>
     </div>
