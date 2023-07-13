@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-    name="description"
-    content="JavaScript Quote Generator project"
-  />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JavaScript Quote Generator project" />
     <title>Random Quote Generator</title>
-    
+
     <style>
-        blockquote {
-            text-align: center;
-        }
+      blockquote {
+        text-align: center;
+      }
     </style>
-</head>
-<body style="background-color: rgb(250, 255, 255); display:flex; justify-content: center; margin-top: 15rem;">
-    <div class="container mt-32">
-        <h1 class="text-center m-9">Random Quote Generator</h1>
-        <div id="quote-container"style="margin-top: 1rem" class="jumbotron text-center">
-            <blockquote id="quote" class="blockquote"></blockquote>
-            <footer id="author" class="blockquote-footer"></footer>
+  </head>
+  <body style="background-color: rgb(250, 255, 255)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">Quoteee</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#"
+                ><button id="new-quote" class="btn btn-secondary">
+                  New Quote
+                </button></a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="text-center m-4">
-            <button id="new-quote" class="btn btn-primary">New Quote</button>
-        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 10rem">
+      <h1 class="text-center m-3">Random Quote Generator</h1>
+      <div
+        id="quote-container"
+        style="margin-top: 1rem"
+        class="jumbotron text-center"
+      >
+        <blockquote id="quote" class="blockquote"></blockquote>
+        <footer id="author" class="blockquote-footer"></footer>
+      </div>
+      <div class="text-center m-4">
+        <button id="new-quote1" class="btn btn-primary">New Quote</button>
+      </div>
     </div>
 
     <script src="/script.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
