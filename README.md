@@ -2,7 +2,7 @@
 
 ![Screenshot](/Assets/screenshot.jpg)
 
-Check out the live website: [https://dentrw.vercel.app/](https://dentrw.vercel.app/)
+Check out the live website: [https://hbapte.github.io/Random-Quote-Generator/](https://hbapte.github.io/Random-Quote-Generator/)
 
 ## Table of Contents
 
@@ -22,10 +22,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or further information about DentRW, please reach out to me:
+For any inquiries or further information about Random Quote Generator, please reach out to me:
 
 - **Ishimwe Jean Baptiste**
 - GitHub: [hbapte](https://github.com/hbapte)
 - Email: [ijbapte@gmail.com](mailto:ijbapte@gmail.com)
 
-Feel free to visit the live website at [https://dentrw.vercel.app/](https://dentrw.vercel.app/) and experience DentRW firsthand.
+Feel free to visit the live website at [https://hbapte.github.io/Random-Quote-Generator/](https://hbapte.github.io/Random-Quote-Generator/) and experience Random Quote Generator firsthand.
