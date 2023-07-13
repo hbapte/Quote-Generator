@@ -2,7 +2,7 @@
 
 ![Screenshot](/Assets/screenshot.jpg)
 
-Check out the live website: [https://hbapte.github.io/Random-Quote-Generator/](https://hbapte.github.io/Random-Quote-Generator/)
+Check out the live website: [https://random-quote-generator-hbapte.vercel.app/](https://random-quote-generator-hbapte.vercel.app/)
 
 ## Table of Contents
 
@@ -28,4 +28,4 @@ For any inquiries or further information about Random Quote Generator, please re
 - GitHub: [hbapte](https://github.com/hbapte)
 - Email: [ijbapte@gmail.com](mailto:ijbapte@gmail.com)
 
-Feel free to visit the live website at [https://hbapte.github.io/Random-Quote-Generator/](https://hbapte.github.io/Random-Quote-Generator/) and experience Random Quote Generator firsthand.
+Feel free to visit the live website at [https://random-quote-generator-hbapte.vercel.app/](https://random-quote-generator-hbapte.vercel.app/) and experience Random Quote Generator firsthand.
