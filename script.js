@@ -56,6 +56,7 @@ const quotes = [
   
   
   document.getElementById("new-quote").addEventListener("click", generateQuote);
+  document.getElementById("new-quote1").addEventListener("click", generateQuote);
   
   // An initial quote when the page loads
   generateQuote();
